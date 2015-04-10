@@ -1,25 +1,24 @@
 {
-  "name": "react-jade-loader",
-  "version": "0.1.0",
-  "description": "webpack loader for react-jade",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Nathan White <nw@nwhite.net>",
-  "license": "MIT",
-  "peerDependencies": {
-    "react-jade": "~2.1.0",
-    "loader-utils": "~0.2.5"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nw/react-jade-loader.git"
-  },
-  "keywords": [
-    "react",
-    "jade",
-    "loader",
-    "webpack"
-  ]
+    "name": "react-jade-loader",
+    "version": "0.1.1",
+    "description": "webpack loader for react-jade",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "react-jade": "2.4.0",
+        "loader-utils": "0.2.7"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lamo2k123/react-jade-loader.git"
+    },
+    "keywords": [
+        "react",
+        "jade",
+        "loader",
+        "webpack"
+    ]
 }
