@@ -1,24 +1,28 @@
 {
-    "name": "react-jade-loader",
-    "version": "0.1.1",
-    "description": "webpack loader for react-jade",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "license": "MIT",
-    "dependencies": {
-        "react-jade": "2.4.0",
-        "loader-utils": "0.2.7"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/lamo2k123/react-jade-loader.git"
-    },
-    "keywords": [
-        "react",
-        "jade",
-        "loader",
-        "webpack"
-    ]
+  "name": "react-jade-loader",
+  "version": "0.1.1",
+  "description": "webpack loader for react-jade",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react-jade": "2.4.0",
+    "loader-utils": "0.2.7",
+    "snyk": "^1.316.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lamo2k123/react-jade-loader.git"
+  },
+  "keywords": [
+    "react",
+    "jade",
+    "loader",
+    "webpack"
+  ],
+  "snyk": true
 }
